@@ -56,10 +56,35 @@
             //}
 
 
-        #endregion
+            #endregion
 
 
-    }
+            #region Question 03
+
+
+            /* Q3: Steps to Create a Class Library
+
+                Open Visual Studio
+
+                Click Create New Project
+
+                Choose Class Library
+
+                Write your classes.
+
+                Build the project.
+
+                Add reference to it from another project:
+
+                Right click Dependencies
+
+                Add Project Reference
+
+                Select the library. */
+            #endregion
+
+
+        }
 
 
 
