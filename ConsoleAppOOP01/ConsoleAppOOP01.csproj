@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="ClassLibraryOOP01">
+      <HintPath>..\..\ClassLibraryOOP01\ClassLibraryOOP01\bin\Debug\net8.0\ClassLibraryOOP01.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
