@@ -1,10 +1,15 @@
 ﻿namespace ConsoleAppOOP01
+
+
+    
 {
+
+    using ClassLibraryOOP01;
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, World!");
 
             // PART 01
 
@@ -104,6 +109,50 @@
                 Separation of concerns */
 
             #endregion
+
+
+
+
+            // PART 02
+
+            #region Part 02
+
+            //Console.Write("Enter Movie Name: ");
+            //string movie = Console.ReadLine();
+
+            //Console.Write("Enter Ticket Type (0=Standard,1=VIP,2=IMAX): ");
+            //TicketType type = (TicketType)int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Seat Row: ");
+            //char row = char.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Seat Number: ");
+            //int number = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Price: ");
+            //double price = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Discount Amount: ");
+            //double discount = double.Parse(Console.ReadLine());
+
+            //Ticket ticket = new Ticket(movie, type, new Seat(row, number), price);
+
+            //ticket.PrintTicket(14);
+
+            //Console.WriteLine("\n===== After Discount =====");
+            //Console.WriteLine($"Discount Before : {discount:F2}");
+
+            //ticket.ApplyDiscount(ref discount);
+
+            //Console.WriteLine($"Discount After  : {discount:F2}");
+
+            //ticket.PrintTicket(14);
+
+            #endregion
+
+
+
+
 
 
         }
